@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "E:/Docs/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "E:/Docs/Xilinx_Workspaces/hc/hammingcode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 hammingcode.ngc hammingcode.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o hammingcode_map.ncd hammingcode.ngd hammingcode.pcf 
+xst -intstyle ise -ifn "E:/Docs/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "E:/Docs/Xilinx_Workspaces/hc/hammingcode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 hammingcode.ngc hammingcode.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o hammingcode_map.ncd hammingcode.ngd hammingcode.pcf 
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o hammingcode_map.ncd hammingcode.ngd hammingcode.pcf 
+xst -intstyle ise -ifn "E:/Docs/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "E:/Docs/Xilinx_Workspaces/hc/hammingcode.syr" 
+xst -intstyle ise -ifn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 hammingcode.ngc hammingcode.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o hammingcode_map.ncd hammingcode.ngd hammingcode.pcf 
+par -w -intstyle ise -ol high -t 1 hammingcode_map.ncd hammingcode.ncd hammingcode.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hammingcode.twx hammingcode.ncd -o hammingcode.twr hammingcode.pcf 
+xst -intstyle ise -ifn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.syr" 
+xst -intstyle ise -ifn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.syr" 
+xst -intstyle ise -ifn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.syr" 
+xst -intstyle ise -ifn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 hammingcode.ngc hammingcode.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o hammingcode_map.ncd hammingcode.ngd hammingcode.pcf 
+par -w -intstyle ise -ol high -t 1 hammingcode_map.ncd hammingcode.ncd hammingcode.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml hammingcode.twx hammingcode.ncd -o hammingcode.twr hammingcode.pcf 
+xst -intstyle ise -ifn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.xst" -ofn "C:/Users/Ghost/Documents/Xilinx_Workspaces/hc/hammingcode.syr" 
